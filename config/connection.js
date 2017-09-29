@@ -1,20 +1,5 @@
 // Set up database connection
 var mysql = require('mysql');
-/*
-var connection;
-
-// add in the environment variable option for JAWSDB for heroku
-if (process.env.JAWSDB_URL) {
-	connection = mysql.createConnection(process.env.JAWSDB_URL);
-} else {
-	connection = mysql.createConnection({
-		host: 'localhost',
-		user: 'root',
-		password: 'Qcpmr_019$$$',
-		database: 'burgers_db'
-	});
-};
-*/
 
 var connection;
 if(process.env.JAWSDB_URL) {
@@ -29,14 +14,7 @@ if(process.env.JAWSDB_URL) {
         password: "Qcpmr_019$$$",
         database: "oq9gsx8vy3fay4jv",
     });
-};// var connection = mysql.createConnection({
-// 	host: "localhost",
-// 	port: 3306,
-// 	user: "root",
-// 	password: "",
-// 	database: "burgers_db" 
-// });
-
+};
 // not strictly required, but best practice to establish connection
 // it's possible query establishes the connection
 connection.connect(function(err) {
