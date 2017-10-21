@@ -12,8 +12,8 @@ if(process.env.JAWSDB_URL) {
         host: "localhost",
         user: "root",
         password: "Qcpmr_019$$$",
-        database: "burgers_db",
-//        database: "oq9gsx8vy3fay4jv",
+//        database: "burgers_db",
+        database: "oq9gsx8vy3fay4jv",
     });
 };
 // not strictly required, but best practice to establish connection
